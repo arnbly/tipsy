@@ -40,7 +40,7 @@ Also, I found it quite tricky at first to understand how variables were storing 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Aaron Bailey]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
