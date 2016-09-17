@@ -18,17 +18,17 @@
                                 <frame key="frameInset"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g4w-C9-rDn" userLabel="1 Person">
-                                        <frame key="frameInset" minX="29" minY="262" width="64" height="15.80%"/>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g4w-C9-rDn" userLabel="1 Person">
+                                        <frame key="frameInset" minX="32" minY="262" width="64" height="15.80%"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="1" image="1person">
+                                        <state key="normal" title="1" image="1person - Select">
                                             <color key="titleColor" red="0.14117647058823529" green="0.41176470588235292" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TTE-Pl-d9A"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UT7-3f-ffI" userLabel="2 Person">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UT7-3f-ffI" userLabel="2 Person">
                                         <frame key="frameInset" minX="120" minY="262" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="2" image="2people">
@@ -38,7 +38,7 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wGH-hW-LWq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4VH-Yn-jjR" userLabel="3 Person">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4VH-Yn-jjR" userLabel="3 Person">
                                         <frame key="frameInset" minX="205" minY="262" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="3" image="3people">
@@ -48,7 +48,7 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VB1-3o-lpS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NAW-Y5-d33" userLabel="4 Person">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NAW-Y5-d33" userLabel="4 Person">
                                         <frame key="frameInset" minX="288" minY="262" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="4" image="4people">
@@ -58,7 +58,7 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRd-hj-Blu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YXn-Py-DRp">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YXn-Py-DRp">
                                         <frame key="frameInset" minX="197" minY="336" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -69,7 +69,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HxO-xB-jWH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xAA-rX-fok">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xAA-rX-fok">
                                         <frame key="frameInset" minX="113" minY="336" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -80,7 +80,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSq-Iq-Of3"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eVd-83-QpM">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eVd-83-QpM">
                                         <frame key="frameInset" minX="29" minY="336" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -91,7 +91,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pW7-JY-4HW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fmu-dX-V6k">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fmu-dX-V6k">
                                         <frame key="frameInset" minX="197" minY="415" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -102,7 +102,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nI-Sb-eyd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Amx-pb-rBK">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Amx-pb-rBK">
                                         <frame key="frameInset" minX="113" minY="415" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -113,7 +113,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VDQ-Bk-NyX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TpE-YM-vFJ">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TpE-YM-vFJ">
                                         <frame key="frameInset" minX="29" minY="415" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -124,7 +124,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2h7-y0-GBL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BdO-Hh-dKa">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BdO-Hh-dKa">
                                         <frame key="frameInset" minX="197" minY="493" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -135,7 +135,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RaU-Ia-luT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sff-pC-faA">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sff-pC-faA">
                                         <frame key="frameInset" minX="113" minY="493" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -146,7 +146,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tr6-4A-DCk"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S7o-FQ-w03">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S7o-FQ-w03">
                                         <frame key="frameInset" minX="29" minY="493" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -157,7 +157,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LoM-yV-LEt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y9W-aq-UIS">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y9W-aq-UIS">
                                         <frame key="frameInset" minX="29" minY="572" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -168,7 +168,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONG-rj-7rZ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9hW-Ds-593">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9hW-Ds-593">
                                         <frame key="frameInset" minX="113" minY="572" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -179,7 +179,7 @@
                                             <action selector="enterNumberWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="duo-43-VE5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NyX-6M-xwW" userLabel="Delete">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NyX-6M-xwW" userLabel="Delete">
                                         <frame key="frameInset" minX="197" minY="572" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Delete">
@@ -189,12 +189,12 @@
                                             <action selector="resetCalcWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9F-l5-8Od"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jeP-Eo-wDV">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jeP-Eo-wDV">
                                         <frame key="frameInset" minX="281" minY="572" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="20%">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.47843137254901957" green="0.69803921568627447" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="tipPath">
@@ -205,12 +205,12 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLn-9D-lkE"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XUS-U9-Jju">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XUS-U9-Jju">
                                         <frame key="frameInset" minX="281" minY="493" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="18%">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.47843137254901957" green="0.69803921568627447" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="tipPath">
@@ -221,12 +221,12 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8hz-cH-NdM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTw-qU-Y2l">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTw-qU-Y2l">
                                         <frame key="frameInset" minX="281" minY="415" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="15%">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.26274509800000001" green="1" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="tipPath">
@@ -237,12 +237,12 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTK-om-l9s"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y73-yK-8UX">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y73-yK-8UX">
                                         <frame key="frameInset" minX="281" minY="336" width="64" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="12%">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.47843137254901957" green="0.69803921568627447" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="tipPath">
@@ -253,7 +253,7 @@
                                             <action selector="calculateTipWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0h3-dc-Kox"/>
                                         </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="Tp7-gb-xDf" userLabel="CalcOutput" customClass="ViewShadow">
+                                    <view alpha="0.0" contentMode="scaleToFill" misplaced="YES" id="Tp7-gb-xDf" userLabel="CalcOutput">
                                         <frame key="frameInset" minY="42" width="375" height="205"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -271,14 +271,14 @@
                                                 <frame key="frameInset" minX="30" minY="47" width="314" height="6.33%"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" id="lcx-qs-KV7" userLabel="Output">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" id="lcx-qs-KV7" userLabel="Output">
                                                 <frame key="frameInset" minX="30" minY="74" width="313" height="76.34%"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
                                                 <color key="textColor" red="0.14117647059999999" green="0.41568627450000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OcH-Xj-XQ9" userLabel="Calculation">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OcH-Xj-XQ9" userLabel="Calculation">
                                                 <frame key="frameInset" minX="57" minY="18" width="286" height="11.23%"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
@@ -296,8 +296,29 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="calcOutputCard" destination="Tp7-gb-xDf" id="gzH-GL-Jg3"/>
+                        <outlet property="decimalBtn" destination="Y9W-aq-UIS" id="gDD-zU-u8S"/>
+                        <outlet property="deleteButton" destination="NyX-6M-xwW" id="mq8-cr-DsH"/>
+                        <outlet property="fourTip" destination="NAW-Y5-d33" id="nWU-Lq-ERc"/>
+                        <outlet property="num0" destination="9hW-Ds-593" id="1zD-Gy-1J7"/>
+                        <outlet property="num1" destination="S7o-FQ-w03" id="TdY-Ze-bgH"/>
+                        <outlet property="num2" destination="Sff-pC-faA" id="k6n-DO-Jjc"/>
+                        <outlet property="num3" destination="BdO-Hh-dKa" id="QfB-Ak-A5o"/>
+                        <outlet property="num4" destination="TpE-YM-vFJ" id="OlO-Vi-jrF"/>
+                        <outlet property="num5" destination="Amx-pb-rBK" id="7T4-YK-3n2"/>
+                        <outlet property="num6" destination="Fmu-dX-V6k" id="RcI-81-Va1"/>
+                        <outlet property="num7" destination="eVd-83-QpM" id="lSl-vn-59E"/>
+                        <outlet property="num8" destination="xAA-rX-fok" id="4Uf-pV-edE"/>
+                        <outlet property="num9" destination="YXn-Py-DRp" id="blb-we-bC6"/>
+                        <outlet property="oneTip" destination="g4w-C9-rDn" id="xJ4-A9-Vd7"/>
+                        <outlet property="threeTip" destination="4VH-Yn-jjR" id="1Rg-VN-IMI"/>
+                        <outlet property="tip12Btn" destination="Y73-yK-8UX" id="YDf-68-SfM"/>
+                        <outlet property="tip15Btn" destination="yTw-qU-Y2l" id="eEA-Xg-Ycg"/>
+                        <outlet property="tip18Btn" destination="XUS-U9-Jju" id="uAY-vI-0jx"/>
+                        <outlet property="tip20Btn" destination="jeP-Eo-wDV" id="dtG-vF-yJ2"/>
                         <outlet property="tipLabel" destination="OcH-Xj-XQ9" id="MVZ-al-KCj"/>
                         <outlet property="totalLabel" destination="lcx-qs-KV7" id="wbP-PG-MKI"/>
+                        <outlet property="twoTip" destination="UT7-3f-ffI" id="t0Q-Wi-G8n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -306,7 +327,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1person" width="8" height="26"/>
+        <image name="1person - Select" width="8" height="26"/>
         <image name="2people" width="16" height="25"/>
         <image name="3people" width="25" height="25"/>
         <image name="4people" width="34" height="25"/>
