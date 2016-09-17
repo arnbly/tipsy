@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //Ui Components
+    @IBOutlet weak var calcOutputCard: UIView!
+    
+    //Labels
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
+    
+    //Unique Buttons
     @IBOutlet weak var fourTip: UIButton!
     @IBOutlet weak var threeTip: UIButton!
     @IBOutlet weak var twoTip: UIButton!
@@ -21,16 +27,89 @@ class ViewController: UIViewController {
     @IBOutlet weak var tip18Btn: UIButton!
     @IBOutlet weak var tip20Btn: UIButton!
     @IBOutlet weak var decimalBtn: UIButton!
+    @IBOutlet weak var deleteButton: UIButton!
     
+    //Number Buttons for Animation
+    @IBOutlet weak var num9: UIButton!
+    @IBOutlet weak var num8: UIButton!
+    @IBOutlet weak var num7: UIButton!
+    @IBOutlet weak var num6: UIButton!
+    @IBOutlet weak var num5: UIButton!
+    @IBOutlet weak var num4: UIButton!
+    @IBOutlet weak var num3: UIButton!
+    @IBOutlet weak var num2: UIButton!
+    @IBOutlet weak var num1: UIButton!
+    @IBOutlet weak var num0: UIButton!
+
+    
+    //Vars
     var bill = "0"
     var digit = "0"
     var total = "0"
     var tipVal = "0.15"
     var split = "1"
     
+    
+    //Loading Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    //Cascade load in animation
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(withDuration: 0.5, delay: 0.3, options: .curveEaseOut, animations: {
+            self.calcOutputCard.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.4, options: .curveEaseOut, animations: {
+            self.oneTip.alpha = 1.0
+            self.totalLabel.alpha = 0.3
+            self.tipLabel.alpha = 0.6
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+            self.twoTip.alpha = 1.0
+            self.num7.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.6, options: .curveEaseOut, animations: {
+            self.threeTip.alpha = 1.0
+            self.num8.alpha = 1.0
+            self.num4.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.7, options: .curveEaseOut, animations: {
+            self.fourTip.alpha = 1.0
+            self.num9.alpha = 1.0
+            self.num5.alpha = 1.0
+            self.num1.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.8, options: .curveEaseOut, animations: {
+            self.tip12Btn.alpha = 1.0
+            self.num6.alpha = 1.0
+            self.num2.alpha = 1.0
+            self.decimalBtn.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 0.9, options: .curveEaseOut, animations: {
+            self.tip15Btn.alpha = 1.0
+            self.num3.alpha = 1.0
+            self.num0.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 1.0, options: .curveEaseOut, animations: {
+            self.tip18Btn.alpha = 1.0
+            self.deleteButton.alpha = 1.0
+        })
+        
+        UIView.animate(withDuration: 0.5, delay: 1.1, options: .curveEaseOut, animations: {
+            self.tip20Btn.alpha = 1.0
+        })
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -127,6 +206,9 @@ class ViewController: UIViewController {
     //Appends numbers to the output calc string to build a number
     @IBAction func enterNumber (sender: UIButton){
         let digit = sender.currentTitle!
+        UIView.animate(withDuration: 0.3, animations: {
+            self.totalLabel.alpha = 1.0
+        })
         
         //Sets bill to the first number pressed and removes the 0
         if bill == "0" {
@@ -155,6 +237,9 @@ class ViewController: UIViewController {
         totalLabel.text = "$0"
         split = "1"
         tipVal = "0.15"
+        UIView.animate(withDuration: 0.3, animations: {
+            self.totalLabel.alpha = 0.3
+        })
         
         //Sets split button back to 1
         imageReset()
